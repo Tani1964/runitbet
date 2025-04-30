@@ -27,7 +27,7 @@ function LandingPage() {
   return (
     <div className="overflow-x-clip">
       {/* Keep the header's original styling */}
-      <div className="absolute z-20 bg-white">
+      <div className="absolute z-20 bg-[#E5F0FE]">
         <Nav />
       </div>
 
