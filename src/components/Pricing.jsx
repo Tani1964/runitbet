@@ -228,7 +228,7 @@ const Pricing = () => {
                 </button>
                 <button 
                   onClick={() => handleAnswer(false)}
-                  className="px-6 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition-colors"
+                  className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
                 >
                   No
                 </button>
@@ -273,7 +273,7 @@ const Pricing = () => {
                 </>
               ) : (
                 <>
-                  <div className="text-red-600 flex justify-center mb-4">
+                  <div className="text-blue-600 flex justify-center mb-4">
                     <svg className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>

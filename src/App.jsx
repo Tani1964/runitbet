@@ -79,7 +79,7 @@ const App = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       {/* Navigation - fixed at the top */}
-      <header className="sticky top-0 z-40 bg-[#E5F0FE] shadow-sm">
+      <header className="md:sticky top-0 z-40 bg-[#E5F0FE] shadow-sm">
         <Nav activeSection={activeSection} onNavClick={scrollToSection} />
       </header>
 
