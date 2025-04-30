@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import TallyFormEmbed from './TallyFormEmbed';
 
 const Cta = () => {
   const form = useRef();
@@ -89,8 +90,13 @@ const Cta = () => {
                 Schedule a Consultation
               </button>
             </div>
+
+            <div className="md:w-1/2 bg-blue-600 p-8 md:p-12 lg:p-16 text-white flex items-center justify-center">
+
+            <TallyFormEmbed/>
+            </div>
             
-            <div className="md:w-1/2 bg-blue-600 p-8 md:p-12 lg:p-16 text-white">
+            {/* <div className="md:w-1/2 bg-blue-600 p-8 md:p-12 lg:p-16 text-white">
               <h2 className="text-2xl font-bold mb-6">Request a Free Project Estimate</h2>
               
               {formStatus.submitted ? (
@@ -153,7 +159,7 @@ const Cta = () => {
                 </form>
               )}
               <p className="mt-4 text-sm text-purple-200">We'll get back to you within 24 hours with a detailed proposal.</p>
-            </div>
+            </div> */}
           </div>
         </div>
         
